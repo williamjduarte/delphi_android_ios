@@ -1,0 +1,28 @@
+inherited FrmPrincipal_SmXhdpiPh: TFrmPrincipal_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 250.000000000000000000
+    inherited btnInsert: TButton
+      Position.X = 202.000000000000000000
+    end
+    inherited Label1: TLabel
+      Size.Width = 129.000000000000000000
+    end
+  end
+  inherited ListView1: TListView
+    ItemIndex = 0
+    Size.Width = 250.000000000000000000
+    Size.Height = 327.000000000000000000
+  end
+  inherited BindSourceDB1: TBindSourceDB
+    Left = 104
+    Top = 104
+  end
+  inherited FDQuery1: TFDQuery
+    Active = True
+    Left = 112
+    Top = 176
+  end
+end

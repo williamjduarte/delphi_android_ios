@@ -1,0 +1,118 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object btnInsert: TButton
+      Align = Right
+      Position.X = 592.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'addtoolbutton'
+      TabOrder = 0
+      Text = 'btnInsert'
+      OnClick = btnInsertClick
+    end
+    object btnexcluir: TButton
+      Align = Left
+      Size.Width = 73.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'deletetoolbutton'
+      TabOrder = 1
+      Text = 'Excluir'
+      OnClick = btnexcluirClick
+    end
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 519.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = 'Lista de Compras'
+    end
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnItemClick = ListView1ItemClick
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDQuery1
+    ScopeMappings = <>
+    Left = 240
+    Top = 192
+  end
+  object FDQuery1: TFDQuery
+    Connection = DM_Conexao.FDConnection1
+    SQL.Strings = (
+      'select ShopItem from Item')
+    Left = 248
+    Top = 264
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 156
+    Top = 165
+    object LinkFillControlToField1: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'ShopItem'
+      Control = ListView1
+      Track = True
+      FillDataSource = BindSourceDB1
+      FillDisplayFieldName = 'ShopItem'
+      AutoFill = True
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object qryInsert: TFDQuery
+    Connection = DM_Conexao.FDConnection1
+    SQL.Strings = (
+      'INSERT INTO ITEM (ShopItem) VALUES (:ShopItem)')
+    Left = 336
+    Top = 256
+    ParamData = <
+      item
+        Name = 'SHOPITEM'
+        DataType = ftString
+        ParamType = ptInput
+      end>
+  end
+  object QryExcluir: TFDQuery
+    Connection = DM_Conexao.FDConnection1
+    SQL.Strings = (
+      'delete from Item where ShopItem = :ShopItem')
+    Left = 312
+    Top = 144
+    ParamData = <
+      item
+        Name = 'SHOPITEM'
+        DataType = ftString
+        ParamType = ptInput
+      end>
+  end
+end

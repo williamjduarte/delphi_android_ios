@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/25 03:53:54.000.212,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 00:02:14.000.167,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 18:11:09.000.410,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/06 12:08:12.000.207,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/27 20:33:30.000.435,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/03 19:37:04.000.420,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/25 21:56:44.505,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/25 21:57:23.971,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/01/25 22:16:40.633,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_15\iOS\utNetwork.pas=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/01/25 22:20:52.922,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_15\iOS\uFrmPrincipal.pas=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/25 22:20:52.922,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_15\iOS\uFrmPrincipal.fmx=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/01/25 22:46:28.044,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_15\iOS\prjiOSObjectiveC.dproj=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

@@ -1,0 +1,19 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited Edit1: TEdit
+      Size.Width = 352.000000000000000000
+    end
+  end
+  inherited Layout1: TLayout
+    Size.Width = 400.000000000000000000
+    Size.Height = 567.000000000000000000
+    inherited WebBrowser1: TWebBrowser
+      Size.Width = 400.000000000000000000
+      Size.Height = 567.000000000000000000
+    end
+  end
+end

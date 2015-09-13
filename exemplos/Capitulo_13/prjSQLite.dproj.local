@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/25 03:53:54.000.212,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 00:02:14.000.167,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 18:11:09.000.410,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/06 12:08:12.000.207,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/27 20:33:30.000.435,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/03 19:37:04.000.420,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/24 18:13:10.000.853,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/24 18:17:02.000.091,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/01/24 18:23:55.000.299,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_14\uDmConexao.pas=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/01/24 18:23:55.000.299,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_14\uDmConexao.dfm=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2015/01/24 18:24:40.000.143,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_14\uFrmPrincipal.fmx=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/01/24 18:24:40.000.143,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_14\uFrmPrincipal.pas=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/24 18:25:37.000.310,C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_14\prjSQLite.dproj=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/01/25 02:09:43.000.114,=C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_14\sqlite\capitulo14.s3db</Transaction>
+    <Transaction>2015/07/21 00:57:16.000.176,=C:\Users\WILLIAM\Desktop\Livro William\exemplos\Capitulo_13\sqlite\capitulo13.s3db</Transaction>
+  </Transactions>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>
